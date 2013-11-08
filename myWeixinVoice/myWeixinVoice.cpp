@@ -142,7 +142,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 	int ret = MSP_SUCCESS;
 	//appid ÇëÎðËæÒâ¸Ä¶¯
-	ret = QISRInit("appid=509e1492");
+	ret = QISRInit("appid=");
 	if(ret != MSP_SUCCESS)
 	{
 	//	printf("QISRInit with errorCode: %d \n", ret);
