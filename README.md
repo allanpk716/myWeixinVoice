@@ -30,6 +30,10 @@ myWeixinVoice
 
 如何使用：
 
+    讯飞识别需要用wav文件，而且是特定格式，详细就不说了，可以看代码，或者偷懒的话，用ffmpeg来转吧。
+    
+    ffmpeg -i D:123.m4a -ar 11025 -ac 1 -acodec pcm_s16le d:12345.wav
+
     一般来说PHP文件用 utf-8 的编码格式，那么，再传入参数之前，需要转码。
     
     用 base64 加密过的传参,而且在base64加密前，这个字符串要转换为GBK2312，也就需要在php中进行。
