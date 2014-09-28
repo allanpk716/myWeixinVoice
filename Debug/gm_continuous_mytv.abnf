@@ -86,4 +86,5 @@ $myUS_TV = (绝命毒师 | (Breaking Bad)!en-us) { out.text = "绝命毒师"; }
 
 $myUK_TV = 猎杀行动 | 新福尔摩斯;
 
-$myJP_TV = LEGAL HIGH | 半泽直树;
+$myJP_TV =  (你够哈 | 里够哈 | (LEGAL HIGH)!en-us) { out.text = "LEGAL HIGH"; }
+| 半泽直树;
